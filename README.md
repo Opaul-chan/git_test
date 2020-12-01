@@ -1,109 +1,69 @@
 # git_test
-# Codecamp7_LabGit 
-# ชื่อ นางสาวโอปอล จรรโลงเศวตกุล ผู้เรียน
+# Codecamp7_LabGit ข้อที่1
 
-# Codecamp7
-
-ข้อที่ 1. slide 27 repository
-ให้สร้าง git repository ใหม่ ขึ้นมาว่า git test
-+ ทำการสร้าง folder ที่จะเก็บไฟล์ภายในเครื่อง
-+ คลิกขวาที่ folder ที่สร้างขึ้นมาใหม่และรัน git bash
-+ ทำการเชื่อม github กับ computer เรา
-+ สร้างไฟล์ Readme.md.  
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6    
 
 
-ข้อที่ 2. slide 34 markdown
-ให้ลองเขียน markdown file
-+ สร้าง README.md
-+ ให้ใส่รายละเอียด reprository หรือ ข้อมูลพื้นฐานต่างๆ
-+ ใช้คำสั่ง header
-+ สร้าง link
-+ สร้าง list
-+ สร้าง ตัวหนา ตัวเอียง
-+ สร้าง <hr>
-+ สร้าง blockquotes
+กด Spacebar 2 ครั้ง แล้วกด Enter เพื่อเว้นบบรรทัด  
 
+กกกกกกกกกกก  
 
-ข้อที่ 3. slide 43 git flow 
-ให้ลองเขียน สร้างไฟล์ .txt
-+ พิมพ์ข้อความอะไรก็ได้
-+ save และ ทำการ add file
-+ ขึ้น repository ของเรา
-+ เข้าไปเช็คว่าไฟล์ของเราขึ้นไปหรือไม่ที่เว็บ git 
-+ ลองลบไฟล์ .txt ออก
-+ ลอง git restore จาก repo มาที่เครื่องเรา
+ขขขขขขขขขขข 
+คคคคคคคคคคค 
+11111111111  
 
-ข้อที่ 4. slide 50 git branch
-+ สร้าง branch  ใหม่ด้วย
-+ git branch
-+ checkout ไป branch ใหม่
-+ สร้าง ไฟล์ .txt
-+ แก้ไข ไฟล์ .txt
-+ upload file ขึ้น branch ใหม่
-+ สลับกลับมา master
-+ ดูการเปลี่ยนแปลงที่เกิดขึ้น 
-+ ลบ branch ด้วย
-+ git branch -d branch_name
-+ ลอง ใช้คำสั่ง git checkout -b branch_name
-+ สร้างไฟล์ .txt upload
-+ สลับมา master
-+ กูการเปลี่ยนแปลง
+*เขียนตัวเอียงโดยการใส่ดอกจันหน้าหลังข้อความ*
+_เขียนตัวเอียงโดยการใส่ _ ด้านหน้าและหลังข้อขวาม_  
 
+__เขียนตัวหนาโดยการใส่ _ จำนวน 2 อันทั้งหน้าและหลังข้อความ__
+ 
 
+>าาาาาาาาาาาาาา  
+  
+>>าาาาาาาาาาาาาา  
+  
+  การเขียนลำดับ
 
-ข้อที่5. slide 56 git merge
-กรณีมี conflict
-+ แก้ไข file .txt ใน master
-+ push ขึ้น repo
-+ สลับไป branch ที่สร้างเมื่อกี้
-+ แก้ไข file.txt ให้ไม่เหมือนใน master
-+ push ขึ้น repo
-+ ทำการ merge เข้ากับ master
+1. kskjksl
+5. kmcdjfjk
+9. sjnjdhjke
 
-+ กรณี ไม่มี conflict
-+ สลับมา branch ใหม่
-+ แก้ไขไฟล์ .txt
-+push ขึ้น repo
-+ทำการ merge เข้ากับ master 
-อีกรอบ
+การเขียน list +เว้นวรรคหนึ่งครั้งตามด้วยข้อความ
++  list1
++ list2
++ list3
 
-กรณีมี การเพิ่ม comment
-+ สลับมา branch ใหม่
-+ แก้ไขไฟล์ .txt แบบ comment
-+ push ขึ้น repo
-+ ทำการ merge เข้ากับ master อีกรอบ
+การเขียน list -เว้นววรครหนึ่งครั้งตามด้วยข้อความ
 
-ข้อที่ 6. slide 65 git rebase
+- list1
+- list2
+- list3
 
-กรณีมี conflict 
-+ สร้าง branch ใหม่
-+ แก้ไข file .txt ใน master
-+ push ขึ้น repo
-+ สลับไป branch ที่สร้างเมื่อกี้
-+ แก้ไข file.txt ให้ไม่เหมือนใน master
-+ push ขึ้น repo
-+ ทำการ rebase เข้ากับ master
+การเขียน list *เว้นววรคหนึ่งครั้งตามด้วยข้อความ
 
-กรณี ไม่มี conflict
-+ สลับมา branch ใหม่
-+ แก้ไขไฟล์ .txt
-+ push ขึ้น repo
-+ ทำการ rebase เข้ากับ master 
-อีกรอบ
+* list1
+* list2
+* list3
 
-ข้อที่ 7.slide 69 git ignore
-+ ลอง สร้างไฟล์ .html, .css, .js
-push repo
+การเขีบย listในlist เว้นวรรคสองครั้งตามด้วย*เว้นวรรคหนึ่งครั้งตามด้วยข้อความ
 
-+ ignore ไฟล์ .html
-git rm --cached file_name
-push repo
+* list
+  * list
 
-+ edit ignore ไฟล์ .css
-push repo
-+ git rm --chached file_name
-+ edit ignore ไฟล์ .js
-push repo
-+ git rm --cached file_name
-push repo
+การเขียน hr เขียนได้ 3 แบบ
+
+***
+1. เขียนดอกจันสามอันติดกันโดยไม่ตามด้วยข้อความ
+___
+2. เขียน _ สามอันติดกันโดยไม่ตามด้วยข้อความ
+---
+3. เขียน - สามอันติดกันโดยไม่ตามด้วยข้อความ
+
+*** กกกกกกกกกกกก
+
 
